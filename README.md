@@ -1,34 +1,35 @@
-## Description
+# numberless-hornbill
 
-Create a simple content management system that allows users to add, delete, or update books.  Books entered in the system can be viewed in a listing, or searched for using basic searches (title, author, genre). 
+Create a simple content management system that allows users to add, delete, or update books. Books entered in the system can be viewed in a listing, or searched for using basic searches.
+
 ## Context
 
 Creating this web application will provide exposure to:
-- Express (or other web framework)
+- Express
 - Javascript
-- Simple relational database interactions (Create, Read, Update, Delete), with SQL practice
-- Simple server side templating (to render data retrieved from the database)
+- Simple graph —Neo4j— database interactions (Create, Read, Update, Delete)
+- Simple server side templating —Jade— (to render data retrieved from the database)
 
+Asterisks (*) denote stretch goals.
 
 ## Specifications
-- [ ] Any user can add books into the system via an admin page
-- [ ] Books entered in the system are listed on the home page, in pages of 10
-- [ ] Users can search for books by title OR by author OR by genre, and search results will be presented in a new page
-- [ ] Users can view book details on a book detail page, linked to from the listing or search pages
-- [ ] All code submissions are peer reviewed via GitHub PR by at least two members of the team, and master is always in a stable state (tests passed, site functions)
+
+- [ ] Any user can add books into the system via an administrative page
+- [ ] Books entered in the system are listed on the home page
+- [ ] Users can search for books by title 
+  - [ ] * User can employ  search operators to narrow results by properties like author, genre, title, et cetera
+  - [ ] * Employ "live search" —results are rerendered as the user types in the search field
+- [ ] Users can view book details
+
 ### Required
-- [ ] The artifact produced is properly licensed, preferably with the [MIT license](https://opensource.org/licenses/MIT).
+
+- [ ] The artifact produced is properly licensed with the [MIT license](https://opensource.org/licenses/MIT).
+
 ## Quality Rubric
+
+- Repo is well mantained —easily inspectable, history is easy to comprehend, branching is employed for discrete features. (Git Flow)
 - Code is well formatted without any linting errors
 - Variables, functions, css classes, etc. are meaningfully named (no comments exist in code to explain functionality - the names serve that function)
 - Functions are small and serve a single purpose
 - Code is well organized into a meaningful file structure
-- Code is reasonably tested with a test suite
 - Interface is user friendly
-## Resources
-
-Model -
-## http://ondras.zarovi.cz/sql/demo/
-
-<!-- LICENSE -->
-

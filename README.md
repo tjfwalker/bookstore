@@ -7,7 +7,7 @@ Create a simple content management system that allows users to add, delete, or u
 Creating this web application will provide exposure to:
 - Express
 - Javascript
-- Simple graph —Neo4j— database interactions (Create, Read, Update, Delete)
+- Simple graph database —Neo4j— interactions (Create, Read, Update, Delete)
 - Simple server side templating —Jade— (to render data retrieved from the database)
 
 Asterisks (*) denote stretch goals.
